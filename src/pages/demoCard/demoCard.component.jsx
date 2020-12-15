@@ -34,25 +34,6 @@ const DemoCard = ({ users }) => {
       </div>
     );
   });
-
-  //   for (let key in newObj) {
-
-  //     oldobj = newObj[key].map((value) => {
-  //       return (
-  //   <div key={value.order_id} className="card" style={{ width: "18rem" }}>
-  //     <div className="card-body">
-  //       <h5 className="card-title">{key}</h5>
-
-  //       <p className="card-text" key={value.order_id}>
-  //         {value.order_id}
-  //       </p>
-  //     </div>
-  //   </div>
-  //       );
-  //     });
-  //   }
-
-  //   return oldobj.map((el) => el);
 };
 
 export default DemoCard;
